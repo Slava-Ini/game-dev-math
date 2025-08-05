@@ -63,8 +63,10 @@ Long compile times, however worth trying within Markdown or Jupyter
 
 - Switch conda env `conda activate my-manim-environment`
 
-
 ## Plan
 
 - The idea for now is to try using Jupyter Lab with builtins and possibly with Manim
 - Another option is to use Markdown as it supports LaTeX and we can still paste Manim stuff there
+
+
+TODO: start by running python packages in Jupyter
