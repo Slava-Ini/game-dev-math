@@ -33,8 +33,10 @@ Pros:
 - Works well
 - Instant visualization
 - LaTeX support
+- Manim support
 - Popular
 - Many handy tools
+ 
 
 Cons:
 - A lot of soft and plugins to install
@@ -51,8 +53,18 @@ Just a web pure LaTeX editor with subscription
 
 Pure LaTeX editor
 
-### TODO: start from playing with Manim
+## Manim
 
->Test LaTeX
- 
-$$P \left( A=2 \, \middle| \, \dfrac{A^2}{B}>4 \right)$$
+Library for making videos, images and gifts
+Generally not usable on it's own, has some troubles with running on WSL smoothly
+Long compile times, however worth trying within Markdown or Jupyter
+
+## Commands
+
+- Switch conda env `conda activate my-manim-environment`
+
+
+## Plan
+
+- The idea for now is to try using Jupyter Lab with builtins and possibly with Manim
+- Another option is to use Markdown as it supports LaTeX and we can still paste Manim stuff there
