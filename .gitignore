@@ -1,0 +1,9 @@
+# Python Jupyter environment
+jupyter
+
+# Jupyter generated files
+.ipynb_checkpoints/
+
+# Bytecode files
+__pycache__/
+*.py[cod]

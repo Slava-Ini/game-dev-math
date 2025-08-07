@@ -1,72 +1,33 @@
-# game-dev-math
+# Game Dev Math
 
-## Documenting Tool Options
+This repository contains some insights on game dev related math
+It's a series of Jupyter Lab notes on different topics with visualisations
 
-1. [Jupiter Lab + LaTeX converter + Preview](#jupiter-lab)
-2. [Wolfram](https://www.wolfram.com/mathematica/)
-3. [Mainm](https://docs.manim.community/en/stable/guides/using_text.html#text-with-latex)
-4. LaTeX text editors
-     - [Overleaf](https://www.overleaf.com/)
-     - [TexMaker](https://www.xm1math.net/texmaker/index.html)
-     - [TexLap - LSP](https://github.com/latex-lsp/texlab)
-     - [Vimtex - Vim LSP](https://github.com/lervag/vimtex)
-5. Visualizers
-     - [Desmos](https://www.desmos.com/geometry/tjtt82sxwi)
-     - [GeoGebra](https://www.geogebra.org/math/angles#upper-elementary)
+## Contents
 
-## Jupiter Lab
+- [Setup](#setup)
+- [Commands](#commands)
 
-### Installation
+## Setup
 
-- `pip install jupyterlab` - install (migrate both commands to conda)
-- `pip install jupyterlab-latex` - install LaTeX support (Doesn't work?)
-- [NbConverter](https://saturncloud.io/blog/how-to-use-latex-in-jupyter-notebook/) works better
-- `jupyter labextension list` - list all the plugins
-- `jupyter lab --no-browser` - start
-
-Additional requirements:
-- [Quarto](https://quarto.org/docs/get-started/) for preview
-
-### Result
-
-Pros:
-- Works well
-- Instant visualization
-- LaTeX support
-- Manim support
-- Popular
-- Many handy tools
- 
-
-Cons:
-- A lot of soft and plugins to install
-- Runs in browser
-- Not very convenient on the first look
-
-## Latex
-
-### Overleaf
-
-Just a web pure LaTeX editor with subscription
-
-### TexMaker
-
-Pure LaTeX editor
-
-## Manim
-
-Library for making videos, images and gifts
-Generally not usable on it's own, has some troubles with running on WSL smoothly
-Long compile times, however worth trying within Markdown or Jupyter
+- Create a virtual environment `python3 -m venv jupyter`
+- Activate an environment `source jupyter/bin/activate.fish`
+- Register an environment in Jupyter Lab
+```sh
+python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
+```
+- Install the dependencies `pip install -r requirements.txt`
+- Start Jupyter Lab `jupyter lab`
+- Select the `Math Notes` kernel
 
 ## Commands
 
-- Switch conda env `conda activate my-manim-environment`
+### Python
 
-## Plan
+- `pip show <package_name>` - display the version of the package installed in the environment
+- `pip freeze > requirements.txt` - update dependencies file in case of installing new ones
 
-- The idea for now is to try using Jupyter Lab with builtins and possibly with Manim
-- Another option is to use Markdown as it supports LaTeX and we can still paste Manim stuff there
+### Jupyter Lab
 
-
-TODO: start by running python packages in Jupyter
+- `jupyter labextension list` - list all the plugins
+- `jupyter lab --no-browser` - start headless
