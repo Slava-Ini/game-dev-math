@@ -34,4 +34,5 @@ python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
 
 ## TODO
 
-Configure the shortcuts for code collapsing according to the [post](https://stackoverflow.com/questions/49280261/jupyter-lab-shortcuts)
+- Configure the shortcuts for code collapsing according to the [post](https://stackoverflow.com/questions/49280261/jupyter-lab-shortcuts)
+- Improve `requirements.txt`
