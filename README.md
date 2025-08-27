@@ -31,3 +31,7 @@ python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
 
 - `jupyter labextension list` - list all the plugins
 - `jupyter lab --no-browser` - start headless
+
+## TODO
+
+Configure the shortcuts for code collapsing according to the [post](https://stackoverflow.com/questions/49280261/jupyter-lab-shortcuts)
