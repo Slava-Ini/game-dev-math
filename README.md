@@ -37,6 +37,8 @@ python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
 - Configure the shortcuts for code collapsing according to the [post](https://stackoverflow.com/questions/49280261/jupyter-lab-shortcuts)
 - Improve `requirements.txt`
 - Install Pandoc and other [requirements](https://stackoverflow.com/questions/29156653/ipython-jupyter-problems-saving-notebook-as-pdf) to be able to save `.pdf`
+- Sort all the math notes
+- Think what to do with chunky `.pdf`s
 
 
 ## To Learn:
