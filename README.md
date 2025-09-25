@@ -12,13 +12,13 @@ It's a series of Jupyter Lab notes on different topics with visualisations
 
 - Create a virtual environment `python3 -m venv jupyter`
 - Activate an environment `source jupyter/bin/activate.fish`
+- Install the dependencies `pip install -r requirements.txt`
 - Register an environment in Jupyter Lab
 ```sh
 python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
 ```
-- Install the dependencies `pip install -r requirements.txt`
 - Start Jupyter Lab `jupyter lab`
-- Select the `Math Notes` kernel
+- Select the `Math Notes` kernel (May already be selected automatically)
 
 ## Commands
 
