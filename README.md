@@ -44,3 +44,4 @@ python -m ipykernel install --user --name=math-notes --display-name "Math Notes"
 ## To Learn:
 
 - Binominal theorem for $(a-b)^2 = a^2-2ab-b^2$
+- Laplass Expansion to understand determinant formula better
